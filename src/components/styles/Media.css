@@ -1,0 +1,50 @@
+/* iPad Pro/ iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .banner-title{
+        font-size: 9rem;
+    }
+    .icon{
+        font-size: 6rem;
+        padding: 1rem;
+    }
+    .font-size{
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobiles */
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .banner-title{
+        font-size: 4rem;
+    
+    }
+    .icon{
+        font-size: 4rem;
+        padding: 1rem;
+    }
+    .radius{
+        border-radius: 10px;
+    }
+    .font-size{
+        font-size: 1.7rem;
+    }
+    .project-info-section{
+        padding-bottom: 60rem;
+
+    }
+}
+
+/* Galaxy Fold */
+@media only screen and (min-width: 200px) and (max-width: 280px){
+    .icon{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .font-size{
+        font-size: 1rem;
+    }
+    .project-info-section{
+        padding-bottom: 60rem;
+
+    }
+}
