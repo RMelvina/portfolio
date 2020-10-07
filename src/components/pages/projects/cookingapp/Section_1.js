@@ -10,6 +10,7 @@ function Section_1(props) {
                     <div className="col-12 justify-content-center text-center" data-aos="fade-up">
                         <h2 className="pt-5 project-heading-font-size" data-aos="fade-up">{props.title}</h2>
                         <Buttons 
+                        bClass={props.cBtn}
                         btn_Url={props.url}
                         btn_Name={props.btnN} />
                         

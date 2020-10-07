@@ -12,6 +12,7 @@ function Section_1(props) {
                         <h2 className="pt-5 project-heading-font-size" data-aos="fade-up">Quick Coaching App</h2>
                       
                         <Buttons 
+                         bClass={props.cBtn}
                         btn_Url={props.url}
                         btn_Name={props.btnN} />
                        
