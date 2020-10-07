@@ -2,8 +2,9 @@ import React from 'react'
 import Re_Icons from '../../resuable_components/Re_Icons'
 import Re_Heading from '../../resuable_components/Re_Heading'
 
-function Home() {
-    return (
+export class Home extends React.Component {
+   render(){
+       return(
         <section className="container-fluid  py-5 bg-img-home-pg bg-imgs_style">
         <div className="container">
             <div className="row max-height justify-content-center align-items-center">
@@ -28,7 +29,9 @@ function Home() {
             </div>
         </div>
     </section>
-    )
+    
+       )
+   }
 }
 
 export default Home

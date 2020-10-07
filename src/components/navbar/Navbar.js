@@ -13,7 +13,7 @@ export class Navbar extends Component {
         return (
       
                 <nav className="navbar navbar-expand-md bg-dark navbar-dark">
-                <a className="navbar-brand" href='/'>Melvina's Portfolio</a>
+                <a className="navbar-brand" >Melvina's Portfolio</a>
                 <button className="navbar-toggler" onClick={this.handleClick} type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
                 </button>

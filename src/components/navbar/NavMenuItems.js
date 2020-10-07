@@ -2,7 +2,7 @@
 export const NavMenuItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '#',
         cName: 'nav-link'
     },
     {
