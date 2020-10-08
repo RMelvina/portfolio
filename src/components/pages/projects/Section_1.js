@@ -8,7 +8,7 @@ function Section_1(props) {
     return (
         <section class="container-fluid project-section" id="projects">
             <div class="container font-style">
-                <h1 class="display-2 text-dark">My Projects</h1>
+                <h1 class=" main-project-heading ">{props.title}</h1>
             </div>
             <div class="container">
             <div class="row pt-5 ">

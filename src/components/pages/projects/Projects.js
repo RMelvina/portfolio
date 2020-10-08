@@ -7,6 +7,7 @@ export class Projects extends Component {
         return (
            
            <Section_1
+           title="Android Projects"
             arryaName={Project_Section_Items}
             />
         )

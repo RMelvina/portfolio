@@ -12,7 +12,7 @@ function Section_1_Reuse(props) {
                             </div>
                         </div>
                         <div class="col-12">
-                            <p class=" font text-center lead">
+                            <p class=" font text-center ">
                                 {props.text}
                             </p>
                             <hr class="divider" />

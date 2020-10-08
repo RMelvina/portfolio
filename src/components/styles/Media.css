@@ -10,6 +10,9 @@
     .font-size{
         font-size: 1.4rem;
     }
+    .project-info-section{
+        padding-bottom:-13rem ;
+    }
 }
 
 /* Mobiles */
@@ -32,6 +35,20 @@
         padding-bottom: 60rem;
 
     }
+    .main-font-size-heading{
+        font-size: 4rem;
+
+    }
+    .project-heading-font-size{
+        font-size: 3rem;
+
+    }
+    .btn-size{
+        font-size: 2rem;
+    }
+    .font{
+        font-size: 1rem;
+    }
 }
 
 /* Galaxy Fold */
@@ -44,7 +61,23 @@
         font-size: 1rem;
     }
     .project-info-section{
-        padding-bottom: 60rem;
+        padding-bottom: 50rem;
 
     }
+    .main-font-size-heading{
+        font-size: 4rem;
+
+    }
+    .project-heading-font-size{
+        font-size: 3rem;
+
+    }
+    .btn-size{
+        font-size: 2rem;
+    }
+    .font{
+        font-size: 1rem;
+    }
+
+
 }

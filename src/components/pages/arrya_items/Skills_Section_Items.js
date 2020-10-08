@@ -4,8 +4,8 @@ export const Skills_Section_Items = [
 
          skills:
          [
-            'HTML \n',
-            'ASP.NET CORE \n',
+            'HTML\n',
+            'ASP.NET CORE\n',
             'CSS \n',
             'BOOTSTRAP \n',
             'PYTHON \n',
@@ -24,7 +24,6 @@ export const Skills_Section_Items = [
          [
             'GITHUB \n',
             'SQL \n',
-            'CSS \n',
             'FIREBASE \n'
          ],
          cName:'skills-col-border radius '

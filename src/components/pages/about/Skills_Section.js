@@ -15,7 +15,17 @@ function Skills_Section(props) {
                                         <h4>{items.title}</h4>
                                         <hr className="divider" />
                                         <div className="font-style">
-                                            <h5>{items.skills}</h5>
+                                          
+                                          {items.skills.map((num) => {
+                                               return(
+                                                <h5>{num}</h5>
+                                               )
+
+                                          }) 
+
+                                          }
+                                           
+                                            
                                         </div>
 
                                     </div>

@@ -12,7 +12,7 @@ export class CookingApp extends React.Component {
             title="Cooking App"
             url="https://github.com/RMelvina/RecipesApp.git"
             btnN="Github"
-            cBtn="github-btn"/>
+            cBtn="github btn-size"/>
            
             <Section_2 
             text="This project was for my UI/UX paper for my course.   

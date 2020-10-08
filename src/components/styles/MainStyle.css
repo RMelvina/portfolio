@@ -7,8 +7,9 @@
      box-sizing: border-box;
  }
  body{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: #B16E4B;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #FDCF76;
     margin: 0; 
     padding: 0 
 }
@@ -17,6 +18,7 @@
  .font{
     font-size: 2rem;
 }
+
 .divider{
     width: 4rem;
     outline: 2px dashed orange;
@@ -27,8 +29,8 @@
 /* Style All End */
 /* Bg Imgs */
 .bg-img-home-pg{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-    url(../images//dev_img.jpeg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../images//dev_img.jpeg); */
 }
 
 /* Bg Imgs End */
@@ -49,22 +51,79 @@
     font-size: 8rem;
 }
 /* Main Font Size Heading End */
+/* ------------NAVBAR STYLE--------------------------- */
+nav{
+    background-color: #FDCF76;
+    
+}
+
+.navbar-links{
+    
+  /* padding: 1rem 0; */
+}
+.navbar-link{
+    color: #B16E4B;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 1.6rem;
+}
+a:hover{
+    color: white;
+}
+/* ------------NAVBAR STYLE END-------------------------- */
 /* Icon Style */
 .icon{
     font-size: 5rem;
     padding: 1rem;
     color: white;
-}
-.icon:hover{
-    color: orange;
     
+   
 }
+.icon:hover {
+    color: white; 
+}
+
+
+.toolT{
+   
+    width: 120px;
+    
+    top: 90%;
+    visibility: hidden;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: -100px;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+    
+    
+    
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+}   
+.icon:hover .toolT{
+    visibility: visible;
+    top: 100%;
+    transform: translate(0,0)
+}
+
+   
 /* Icon Style End */
 
 /* --------------ABOUT ME SECTION----------------- */
 .about-section{
-    background-color: var(--main-bg-color);
+    background-color: #FCF0CF;
     padding-bottom: 14rem;
+    font-weight: 400;
     margin-top: 0;  
 }
 .img{
@@ -82,7 +141,7 @@
     margin-top: -12rem;
 }
 .skills-col-border{
-    background: linear-gradient(rgba(145, 145, 145),rgba(36, 36, 36));
+    background: linear-gradient( rgba(243, 209, 220),rgba(253, 207, 118),rgba(243, 209, 220));
     border: 1px solid orange;
     height: 100%;
     
@@ -108,8 +167,11 @@
     padding-top: 8rem;
     text-align: center;
     height: 100vh;
-    background-color: white;
- 
+    background-color: #FCF0CF;
+}
+.main-project-heading{
+    font-weight: 400;
+    font-size: 4rem;
 }
 
 .p-font-size{
@@ -134,7 +196,8 @@
 }
 .overlay:hover::before{
     opacity: 1;
-    background-color: rgba(0,0,0,0.9);
+    /* background-color: rgba(0,0,0,0.9); */
+    background-color:#FDCF76;
 }
 .project-container{
     width: fit-content;
@@ -174,10 +237,10 @@
 }
 .github,
 .view{
-    border: 1px dashed orange;
+    border: 1px dashed white;
     /* background-color: rgba(145, 145, 145); */
     width: 8rem;
-    color: orange
+    color: #B16E4B;
 }
 .view{
     margin-bottom:1rem ;
@@ -185,21 +248,35 @@
 
 .view:hover,
 .github:hover{
-    background-color: orange;
+    background-color:#F6A7C1;
     color: white;
+    font-weight: 400;
     transition: all 0.5s ease-in-out;
 
 }
 /* --------------PROJECTS SECTION END----------------- */
 /* --------------QUICK COACHING APP SECTION----------------- */
 .project-info-section{
-    background-color: var(--main-bg-color);
+    background-color:  #FCF0CF;
     padding-bottom: 14rem;
     height:100vh;
 }
+.btn-size{
+    width: fit-content;
+    padding:  0 2rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    border: 3px dashed #F6A7C1;
 
+}
 .project-heading-font-size{
     font-size: 4rem;
+}
+.project-heading-col{
+   
+    min-height: 75vh;
+    
+   
 }
 .project-section-2{
     margin-top: -12rem;
@@ -207,15 +284,16 @@
 }
 .project-row{
     border-radius: 1rem;
-    background: linear-gradient(rgba(145, 145, 145),rgba(36, 36, 36));
+    background: linear-gradient( rgba(243, 209, 220),rgba(253, 207, 118),rgba(243, 209, 220));
    
 }
 .github-btn{
-    border-radius: 10px; 
+    
+    /* border-radius: 10px; 
     color: orange;
     font-size: 3rem;
     padding: 1rem 5rem;
-    border: 1px dashed orange;
+    border: 1px dashed orange; */
 }
 .github-btn:hover{
     background-color: orange;
@@ -227,6 +305,14 @@
     height:fit-content;
 }
 /* --------------QUICK COACHING APP SECTION END----------------- */
-.color{
-    color: black;
+/* --------------COLORS----------------- */
+.font-color{
+    color: #B16E4B;
 }
+
+
+
+.body{
+   background-color: #FCF0CF;
+}
+

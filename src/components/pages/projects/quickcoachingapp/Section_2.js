@@ -4,7 +4,7 @@ function Section_2(props) {
     return (
         <section className="container-fluid project-section-2">
               <div className="container">
-              <div className="row project-row font">
+              <div className="row project-row  font">
                <div className="col-lg-6 col-md-6 col-sm-9 text-sm-center col-12 pt-5 d-flex align-items-center" data-aos="fade-up">
                 <p className="">
                     {props.text}
@@ -12,7 +12,7 @@ function Section_2(props) {
                
             </div>
 
-            <div className="col-lg-6 col-md-6 col-sm-9 col-12 pt-5 pl-5" data-aos="fade-down">  
+            <div className="col-lg-6 col-md-6 col-sm-9 col-12 pt-5" data-aos="fade-down">  
                 <p className="">  
                     <span className="underline">What I learned:</span>
                 </p>

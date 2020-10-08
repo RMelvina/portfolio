@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Re_Heading(props) {
+    
     return (
 
         <h1 className={props.cTitleName}>
@@ -8,6 +9,7 @@ function Re_Heading(props) {
                 {props.heading}
             </strong>
         </h1>
+
 
     )
 }

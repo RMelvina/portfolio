@@ -12,7 +12,7 @@ export class Adas extends Component {
                 title="Alzheimer's Disease Assessment Scale Apps"
                 url="https://github.com/timeoutmode/ADAS.git"
                 name="Github"
-                cBtn="github-btn"/>
+                cBtn="github btn-size"/>
 
                 <Section_2
                 text="I was in a team of six for this project, this app was designed 

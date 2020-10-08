@@ -11,7 +11,8 @@ export class QuickCoachingApp extends React.Component {
             <Section_1
                 url="https://github.com/RMelvina/QuickCoachingApp.git"
                 btnN="GITHUB"
-                cBtn="github-btn" />
+                cBtn="github btn-size" />
+           
             <Section_2
                 text="I was in a team of four for this project that I did 
                     for my final paper for my course.    
