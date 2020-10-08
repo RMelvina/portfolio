@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9bd4da33.chunk.css",
-    "main.js": "/portfolio/static/js/main.1c55895c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1c55895c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.48560184.chunk.css",
+    "main.js": "/portfolio/static/js/main.30c5c6b4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.30c5c6b4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.98fb296d.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.98fb296d.js.map",
     "static/js/2.f61099b7.chunk.js": "/portfolio/static/js/2.f61099b7.chunk.js",
     "static/js/2.f61099b7.chunk.js.map": "/portfolio/static/js/2.f61099b7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bef923814211aacc0e910100a8b34cb4.js": "/portfolio/precache-manifest.bef923814211aacc0e910100a8b34cb4.js",
+    "precache-manifest.39bc79ff4e54df00e6d1ec557261c4e6.js": "/portfolio/precache-manifest.39bc79ff4e54df00e6d1ec557261c4e6.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9bd4da33.chunk.css.map": "/portfolio/static/css/main.9bd4da33.chunk.css.map",
+    "static/css/main.48560184.chunk.css.map": "/portfolio/static/css/main.48560184.chunk.css.map",
     "static/js/2.f61099b7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f61099b7.chunk.js.LICENSE.txt",
     "static/media/adas_guess_screen1.png": "/portfolio/static/media/adas_guess_screen1.7ae6b748.png",
     "static/media/adas_guess_screen4.png": "/portfolio/static/media/adas_guess_screen4.f11b8c9f.png",
     "static/media/adas_screen1.png": "/portfolio/static/media/adas_screen1.48a694dc.png",
     "static/media/addpatientform.png": "/portfolio/static/media/addpatientform.3f637b02.png",
     "static/media/assessment.png": "/portfolio/static/media/assessment.f264819a.png",
-    "static/media/MainStyle.css": "/portfolio/static/media/dev_img.14b5cef3.jpeg",
     "static/media/guessfinger_screen1.png": "/portfolio/static/media/guessfinger_screen1.432fb697.png",
     "static/media/guessfinger_screen2.png": "/portfolio/static/media/guessfinger_screen2.31a254be.png",
     "static/media/img_photo.jpeg": "/portfolio/static/media/img_photo.d92c64e6.jpeg",
@@ -45,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.98fb296d.js",
     "static/js/2.f61099b7.chunk.js",
-    "static/css/main.9bd4da33.chunk.css",
-    "static/js/main.1c55895c.chunk.js"
+    "static/css/main.48560184.chunk.css",
+    "static/js/main.30c5c6b4.chunk.js"
   ]
 }
