@@ -11,7 +11,10 @@
         font-size: 1.4rem;
     }
     .project-info-section{
-        padding-bottom:-13rem ;
+        padding-bottom: -13rem ;
+    }
+    .home-bg-color{
+        min-height: calc(100vh - 60px);
     }
 }
 
@@ -19,7 +22,6 @@
 @media only screen and (min-width: 200px) and (max-width: 767px){
     .banner-title{
         font-size: 4rem;
-    
     }
     .icon{
         font-size: 4rem;
@@ -32,22 +34,22 @@
         font-size: 1.7rem;
     }
     .project-info-section{
-        padding-bottom: 60rem;
-
+        padding-bottom: 45rem;
     }
     .main-font-size-heading{
         font-size: 4rem;
-
     }
     .project-heading-font-size{
         font-size: 3rem;
-
     }
     .btn-size{
         font-size: 2rem;
     }
     .font{
         font-size: 1rem;
+    }
+    .home-bg-color{
+        min-height: calc(100vh - 50px);
     }
 }
 
@@ -61,16 +63,13 @@
         font-size: 1rem;
     }
     .project-info-section{
-        padding-bottom: 50rem;
-
+        padding-bottom: 46rem;
     }
     .main-font-size-heading{
         font-size: 4rem;
-
     }
     .project-heading-font-size{
         font-size: 3rem;
-
     }
     .btn-size{
         font-size: 2rem;
@@ -78,6 +77,5 @@
     .font{
         font-size: 1rem;
     }
-
 
 }

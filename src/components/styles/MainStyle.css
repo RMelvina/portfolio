@@ -6,10 +6,11 @@
  *{
      box-sizing: border-box;
  }
- body{
+ html,body{
     color: #B16E4B;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #FDCF76;
+    min-height: 100%;
     margin: 0; 
     padding: 0 
 }
@@ -18,7 +19,7 @@
  .font{
     font-size: 2rem;
 }
-
+   
 .divider{
     width: 4rem;
     outline: 2px dashed orange;
@@ -43,8 +44,13 @@
 /* Bg Imgs Style End */
 /* Min Height All */
 .max-height{
-    min-height: 100vh;
+  min-height: 100vh;
+  
+}  
+.fill{
+    min-height: 100%;
 }
+
 /* Min Height All End */
 /* Main Font Size Heading */
 .main-font-size-heading{
@@ -70,6 +76,13 @@ nav{
 a:hover{
     color: white;
 }
+
+
+.home-bg-color{
+    background-color: #FCF0CF;
+    min-height: calc(100vh - 68px);
+    
+ }
 /* ------------NAVBAR STYLE END-------------------------- */
 /* Icon Style */
 .icon{
@@ -164,9 +177,9 @@ a:hover{
 /* --------------SKILLS SECTION END----------------- */
 /* --------------PROJECTS SECTION----------------- */
 .project-section{
-    padding-top: 8rem;
+    padding-top: 4rem;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #FCF0CF;
 }
 .main-project-heading{
@@ -238,7 +251,7 @@ a:hover{
 .github,
 .view{
     border: 1px dashed white;
-    /* background-color: rgba(145, 145, 145); */
+    background-color: rgba(145, 145, 145);
     width: 8rem;
     color: #B16E4B;
 }
@@ -253,6 +266,10 @@ a:hover{
     font-weight: 400;
     transition: all 0.5s ease-in-out;
 
+}
+.displayProejctsRow{
+    /* max-width: 100%; */
+    background-color: tomato;
 }
 /* --------------PROJECTS SECTION END----------------- */
 /* --------------QUICK COACHING APP SECTION----------------- */
@@ -312,7 +329,4 @@ a:hover{
 
 
 
-.body{
-   background-color: #FCF0CF;
-}
 

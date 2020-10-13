@@ -6,10 +6,11 @@ export class Home extends React.Component {
     render() {
         return (
         
-            <section className="container-fluid body font-color py-5 bg-img-home-pg bg-imgs_style">
-                <div className="container">
-                    <div className="row max-height justify-content-center align-items-center">
-                        <div className="col-12  my-5 mx-auto text-center">
+            // justify-content-center align-items-center
+            <section className="container-fluid home-bg-color  d-flex flex-column font-color  bg-img-home-pg bg-imgs_style">
+                {/* <div className="container  "> */}
+                    <div className="row d-flex flex-grow-1 justify-content-center align-items-center ">
+                        <div className="col-12   text-center  ">
 
                             <Re_Heading cTitleName="main-font-size-heading "
                                 heading="Melvina" />
@@ -36,7 +37,7 @@ export class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </section>
 
         )

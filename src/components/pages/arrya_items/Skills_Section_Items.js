@@ -42,5 +42,5 @@ export const Skills_Section_Items = [
          ],
          cName:'border-radius-right skills-col-border radius '
           
-    },
+    }
 ]
