@@ -40,7 +40,8 @@ export const Project_Section_Items = [
                 btnVName: 'View',
                 btnVUrl: 'https://rmelvina.github.io/weather/',
                 btnGName: 'Github',
-                btnGUrl: 'https://github.com/RMelvina/weather.git'
+                btnGUrl: 'https://github.com/RMelvina/weather.git',
+                target:"_blank"
             },
             
         ]

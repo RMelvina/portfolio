@@ -17,14 +17,17 @@ function Re_Section_1(props) {
                     <h4 className="project-heading">{props.projectT}</h4>
                 </div>
                 <div className="buttons-container">
+                   
                     <Buttons
                         bClass="view"
                         btn_Url={props.btnVU}
-                        btn_Name={props.btnVN} />
+                        btn_Name={props.btnVN}
+                        target={props.target} />
                     <Buttons
                         bClass="github"
                         btn_Url={props.btnGU}
-                        btn_Name={props.btnGN} />
+                        btn_Name={props.btnGN}
+                        target={props.target} />
                 </div>
 
             </div>

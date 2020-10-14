@@ -6,11 +6,13 @@ export class Projects extends Component {
     render() {
         return (
 
-            <div>
-                <Section_1
-                    title="Android Projects"
-                />
+           
 
+            <div>
+              <Section_1
+                title="Android Projects"
+            />
+                
                
 
                 

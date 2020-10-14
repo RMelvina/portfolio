@@ -10,7 +10,7 @@ export class Home extends React.Component {
             <section className="container-fluid home-bg-color  d-flex flex-column font-color  bg-img-home-pg bg-imgs_style">
                 {/* <div className="container  "> */}
                     <div className="row d-flex flex-grow-1 justify-content-center align-items-center ">
-                        <div className="col-12   text-center  ">
+                        <div className="col-12  text-center  ">
 
                             <Re_Heading cTitleName="main-font-size-heading "
                                 heading="Melvina" />
@@ -30,7 +30,7 @@ export class Home extends React.Component {
                                     cIconName="fa fa-github font-color icon"
                                     toolTitle="Github" />
 
-                                <Re_Icons href="https://drive.google.com/file/d/1uX1kiMIA0wxUpVblZs-_GE_MdiApR1EY/view?usp=sharing"
+                                <Re_Icons href="https://docs.google.com/document/d/1hpkwFqkyxQpTdNF2fESWyWXhBmd25u8uHckhsITLyzk/edit?usp=sharing"
                                     cIconName="fa fa-file font-color icon"
                                     toolTitle="CV" />
 

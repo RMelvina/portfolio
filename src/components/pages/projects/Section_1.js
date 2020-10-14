@@ -6,7 +6,28 @@ import Re_Section_1 from './Re_Section_1'
 import { Project_Section_Items } from '../arrya_items/ Project_Section_Items'
 
 
-function Section_1(props) {
+export class Section_1 extends React.Component {
+    // const state = {target:false}
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            target:false
+        }
+
+    }
+    
+
+    s = () => {
+      
+       
+        
+    }
+
+    render(){
+
+    
+
     return (
         <section className="container-fluid project-section font-style" id="projects">
             <div className="container">
@@ -34,6 +55,8 @@ function Section_1(props) {
                                                         btnVU={ap.btnVUrl}
                                                         btnGN={ap.btnGName}
                                                         btnGU={ap.btnGUrl}
+                                                        target={ap.target}
+                                                       
                                                     />
 
                                                 )
@@ -55,48 +78,12 @@ function Section_1(props) {
                 </div>
             </div>
         </section>
-        // <section className="container-fluid project-section font-style" id="projects">
-        //     <div className="container">
-        //         <div className="row pt-5">
-        //             <div className="col-12">
-        //                 <h1 className=" main-project-heading ">{props.title}</h1>
-        //             </div>
-        //             {Project_Section_Items.map((items, index) => {
-        //                 return ( 
-        //                     <div className="col-12" key={index}>
-        //                         {items.android_projects.map((p) => {
-        //                             return(
-
-        // <Re_Section_1
-        // projectTitle={p.projectTitle}
-        // imgUrl={p.imgUrl}
-        // btnVName={p.btnVName}
-        // btnVUrl={p.btnVUrl}
-        // btnGName={p.btnGName}
-        // btnGUrl={p.btnGUrl}
-        // />
-
-        //                             )
-        //                         })}
-        //                     </div>
-
-        //                 )
-        //             })}
-
-        //         </div>
-        //     </div>
+        
 
 
-
-
-
-
-
-
-
-        // </section>
 
     )
+    }
 }
 
 export default Section_1
